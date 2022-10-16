@@ -1,0 +1,128 @@
+body{
+    color:#82a5ca;
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    
+    
+}
+
+#hero{
+    background-image: url("Farinruwa.jpg");
+    background-size: cover;
+    height: 200px;
+    margin: 0;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-right-radius: 20px; 
+    border-top-left-radius: 20px;
+    
+}
+
+.title{
+    color: #C1AE7C;
+    background-color: #054A29;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.about{
+    color: #B0C0BC;
+    font-style: italic;
+    background-color: #183A37; 
+    margin: 5px 120px;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+#head{
+    color: black;
+    background-color: #A8DADC;
+    display: grid;
+}
+
+
+.Todo{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+   
+}
+
+
+
+
+#ride:hover{
+    background-image: url("bike.avif");
+    background-size: cover;
+    
+    
+} 
+
+#hike:hover{
+    background-image: url("hike.avif");
+    background-size: cover;
+}
+
+#breeze:hover{
+    background-image: url("breeze.avif");
+    background-size: cover;
+}
+
+
+
+
+
+#img{
+    margin-top: 40px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid #FFFFFF;
+    margin-bottom: 10px;
+    align-items: left;
+}
+
+.act1{
+    margin: 20px 20px;
+    text-align: center;
+    
+}
+
+.act2{
+    margin: 20px 20px;
+    text-align: center;
+}
+
+
+.act3{
+    margin: 20px 20px;
+    text-align: center;
+}
+
+
+
+
+
+.snapshot {
+    width: 150px;}
+
+
+.card {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color:  #2b2839;
+    background-color: #E9DAC1;
+    border-bottom: 7px solid rgb(121, 71, 71);
+    border: 4px groove #876445;
+    border-radius: 10px;
+}
